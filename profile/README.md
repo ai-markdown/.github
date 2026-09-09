@@ -63,4 +63,4 @@ The [`rehype-raw`](https://github.com/ai-markdown/rehype-raw), [`hast-util-raw`]
 
 ---
 
-<p align="center">为 AI 应用而生的 Markdown 渲染工具 · 流式输出 · 数学公式 · 中日韩排版<br /><sub>Open source · MIT licensed · Built with the unified ecosystem</sub></p>
+<p align="center">Markdown rendering for AI applications · Streaming · Math · CJK typography<br /><sub>Open source · MIT licensed · Built with the unified ecosystem</sub></p>
