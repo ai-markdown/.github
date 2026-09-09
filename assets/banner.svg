@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-labelledby="title desc">
+<title id="title">ai-markdown — Markdown for AI, built for the stream.</title>
+<desc id="desc">A dark navy banner with mint typography and a stylized Markdown document. Streaming, math, and multilingual text.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1526"/><stop offset="1" stop-color="#142d3a"/></linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#b7ddd6" stroke-opacity=".055"/></pattern>
+</defs>
+<rect width="1280" height="400" rx="24" fill="url(#bg)"/>
+<rect width="1280" height="400" rx="24" fill="url(#grid)"/>
+<rect x="64" y="58" width="34" height="6" rx="3" fill="#7ee7c1"/>
+<text x="112" y="67" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15" letter-spacing="3" fill="#a5c6cb">OPEN SOURCE / TYPESCRIPT</text>
+<text x="60" y="162" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="76" font-weight="750" letter-spacing="-3" fill="#f0f7fa">ai-markdown<tspan fill="#7ee7c1">_</tspan></text>
+<text x="64" y="224" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="30" fill="#d4e5eb">Markdown for AI, built for the stream.</text>
+<text x="64" y="312" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="17" fill="#8fb7bf">STREAMING <tspan fill="#466976"> / </tspan> MATH <tspan fill="#466976"> / </tspan> MULTILINGUAL</text>
+<g transform="translate(920 56)">
+<rect x="0" y="0" width="288" height="288" rx="20" fill="#0c1d2c" stroke="#34545e"/>
+<circle cx="24" cy="25" r="4" fill="#7ee7c1"/><circle cx="40" cy="25" r="4" fill="#466976"/><circle cx="56" cy="25" r="4" fill="#466976"/>
+<path d="M0 49H288" stroke="#284551"/>
+<text x="26" y="99" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="24" font-weight="600" fill="#7ee7c1"># Hello, AI</text>
+<rect x="26" y="125" width="217" height="8" rx="4" fill="#6c8f9e"/>
+<rect x="26" y="147" width="174" height="8" rx="4" fill="#456575"/>
+<rect x="26" y="187" width="236" height="63" rx="9" fill="#182f3f"/>
+<text x="42" y="227" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="22" fill="#c7dae6">$E = mc^2$</text>
+<rect x="220" y="204" width="10" height="27" rx="2" fill="#7ee7c1"/>
+</g>
+</svg>
