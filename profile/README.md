@@ -9,9 +9,11 @@
 </p>
 
 <p align="center">
+  <a href="https://ai-markdown.github.io/">Website</a> ·
+  <a href="https://ai-markdown.github.io/examples/">Examples</a> ·
   <a href="https://github.com/ai-markdown/ai-markdown">Source</a> ·
-  <a href="https://github.com/ai-markdown/ai-markdown/tree/main/docs">Documentation</a> ·
-  <a href="https://github.com/ai-markdown/ai-markdown/blob/main/docs/framework-transition.md">Migration guide</a> ·
+  <a href="https://ai-markdown.github.io/docs/">Documentation</a> ·
+  <a href="https://ai-markdown.github.io/docs/guides/framework-transition/">Migration guide</a> ·
   <a href="https://github.com/ai-markdown/ai-markdown/discussions">Discussions</a>
 </p>
 
@@ -21,32 +23,33 @@
 
 AI output is a document in motion: a code fence may still be open, a formula unfinished, or a footnote definition yet to arrive. **ai-markdown** brings parsing, document coordination, and framework rendering together to handle those intermediate states.
 
-- **Streaming, with continuity.** Incremental parsing where safe, reusable rendered blocks, and smooth text reveal in the React adapter.
+- **Streaming, with continuity.** Incremental parsing where safe, reusable rendered blocks, and smooth text reveal in React and Vue.
 - **Rich answers.** GFM tables and task lists, KaTeX math, and optional Mantine presentation for highlighted code and Mermaid diagrams.
 - **Multilingual by design.** CJK-aware delimiter parsing and optional spacing between CJK and Latin text.
 - **Room for your UI.** Typed component overrides, typography tokens, and configurable sanitization and URL policies.
 
 ### Choose your starting point
 
-| Package | What it brings |
-| --- | --- |
-| [**@ai-markdown/react**](https://github.com/ai-markdown/ai-markdown/tree/main/packages/react) | React components, hooks, streaming, and document coordination. Start here for React apps. |
-| [**@ai-markdown/react-mantine**](https://github.com/ai-markdown/ai-markdown/tree/main/packages/react-mantine) | Mantine typography, code controls, syntax highlighting, and diagrams. |
-| [**@ai-markdown/core**](https://github.com/ai-markdown/ai-markdown/tree/main/packages/core) | Framework-independent sessions, block plans, and document contributions. |
-| [**@ai-markdown/engine**](https://github.com/ai-markdown/ai-markdown/tree/main/packages/engine) | Markdown parsing, transforms, and incremental processing. |
-| [**@ai-markdown/remark-mark-highlight**](https://github.com/ai-markdown/ai-markdown/tree/main/packages/remark-mark-highlight) | A standalone remark plugin for `==highlight==` syntax. |
+| Package                                                                                         | What it brings                                                                            |
+| ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| [**@ai-markdown/react**](https://ai-markdown.github.io/docs/react/)                             | React components, hooks, streaming, and document coordination. Start here for React apps. |
+| [**@ai-markdown/vue**](https://ai-markdown.github.io/docs/vue/)                                 | Vue components, composables, streaming, and document coordination.                        |
+| [**@ai-markdown/react-mantine**](https://ai-markdown.github.io/docs/react/mantine/)             | Mantine typography, code controls, syntax highlighting, and diagrams.                     |
+| [**@ai-markdown/core**](https://ai-markdown.github.io/docs/core/)                               | Framework-independent sessions, block plans, and document contributions.                  |
+| [**@ai-markdown/engine**](https://ai-markdown.github.io/docs/engine/)                           | Markdown parsing, transforms, and incremental processing.                                 |
+| [**@ai-markdown/remark-mark-highlight**](https://ai-markdown.github.io/docs/plugins/highlight/) | A standalone remark plugin for `==highlight==` syntax.                                    |
 
-**Release status:** the shared core, engine, React, and Mantine packages are on the **v3 beta** train. Use the explicit `@beta` tag and follow the package README for peer dependencies and styles. The highlight plugin has its own release line. **Vue support is in active development.**
+**Release status:** React, Vue, Mantine, core, and engine are on the stable **v3** train. Follow each package’s documentation for installation, peer dependencies, and styles. The highlight plugin has its own release line.
 
-New to the project? Start with the [React installation guide](https://github.com/ai-markdown/ai-markdown/tree/main/packages/react#installation). Moving from `@ai-react-markdown`? Follow the [package migration guide](https://github.com/ai-markdown/ai-markdown/blob/main/docs/framework-transition.md) — the old React `core` package is now `@ai-markdown/react`; the new `@ai-markdown/core` is the shared runtime.
+New to the project? Start with the [React installation guide](https://ai-markdown.github.io/docs/react/#installation). Moving from `@ai-react-markdown`? Follow the [package migration guide](https://ai-markdown.github.io/docs/guides/framework-transition/) — the old React `core` package is now `@ai-markdown/react`; the new `@ai-markdown/core` is the shared runtime.
 
 ### Explore the details
 
-[Streaming & performance](https://github.com/ai-markdown/ai-markdown/blob/main/docs/streaming-and-performance.md) ·
-[Smooth streaming](https://github.com/ai-markdown/ai-markdown/blob/main/docs/smooth-streaming.md) ·
-[Document coordination](https://github.com/ai-markdown/ai-markdown/blob/main/docs/cross-chunk-coordination.md) ·
-[CJK typography](https://github.com/ai-markdown/ai-markdown/blob/main/docs/cjk-typography.md) ·
-[Architecture](https://github.com/ai-markdown/ai-markdown/blob/main/docs/architecture.md)
+[Streaming & performance](https://ai-markdown.github.io/docs/guides/streaming-and-performance/) ·
+[Smooth streaming](https://ai-markdown.github.io/docs/guides/smooth-streaming/) ·
+[Document coordination](https://ai-markdown.github.io/docs/guides/cross-chunk-coordination/) ·
+[CJK typography](https://ai-markdown.github.io/docs/guides/cjk-typography/) ·
+[Architecture](https://ai-markdown.github.io/docs/guides/architecture/)
 
 ### Build with us
 
